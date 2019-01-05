@@ -1,0 +1,5 @@
+name = "Knapsack"
+uuid = "597b816e-1126-11e9-00c0-1bf0b1fe276f"
+license = "MIT"
+authors = ["BMasinde <masindeb@live.com>"]
+version = "0.1.0"
