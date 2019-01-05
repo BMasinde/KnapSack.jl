@@ -1,5 +1,5 @@
 using Knapsack
-using Base.Test
+using Test
 
-# include test files 
+# include test files
 @testset "Output String Tests" begin include("greet_test.jl") end
