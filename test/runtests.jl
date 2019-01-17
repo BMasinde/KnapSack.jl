@@ -1,5 +1,5 @@
 using Knapsack
-using Test
+import Test
 
 # include test files
-@testset "Output String Tests" begin include("greet_test.jl") end
+@testset "Output Nucleotide String Tests" begin include("nuc_test.jl") end

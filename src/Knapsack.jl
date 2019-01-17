@@ -3,13 +3,19 @@ __precompile__
 
 module Knapsack
 
+# imports go Here
+import Random
 
-# greet function
+# nuc function
 # to make sure initial setup is correct
-greet() = print("Hello World!")
+
 
 # export the function greet
 
-export greet
+export nuc
 # infuture keep module clean with only imports of source files
+# use include("file")
+
+include("nuc.jl")
+
 end # module
