@@ -22,7 +22,7 @@ function brute(X::DataFrame, w::IntOrFloat)
     # max_value from iteration
     max_value = 0
 
-    best_comb = []
+    best_comb = Int[]
 
     max_weight = 0
 # iterate over combinations
